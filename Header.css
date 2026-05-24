@@ -1,0 +1,44 @@
+.cw {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.titulo {
+  color: white;
+  margin: 20px 0 10px 20px;
+}
+
+.cf {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.cf::-webkit-scrollbar {
+  display: none;
+}
+
+.cf img {
+  min-width: 250px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+button {
+  position: absolute;
+  z-index: 1;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prev { left: 0; }
+.next { right: 0; }
